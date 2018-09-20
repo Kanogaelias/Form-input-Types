@@ -1,7 +1,5 @@
-<select class="form-control" id="beverage">
-     <option>Coffee</option>
-     <option>Tea</option>
-     <option>Kombucha</option>
-     <option>Water</option>
-   </select>
- 
+
+      var dateOfBirth = $("#born").val();
+      var gender = $("input:radio[name=gender]:checked").val();
+      var favoritefood = $("#favoritefood").val();
+      var favoriteColor = $("#color").val();
